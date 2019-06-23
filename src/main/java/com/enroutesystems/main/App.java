@@ -2,9 +2,8 @@ package com.enroutesystems.main;
 
 import java.util.ArrayList;
 
-import com.enroutesystems.activities.Act1;
-import com.enroutesystems.activities.Act2;
-import com.enroutesystems.activities.Act3;
+import com.enroutesystems.activities.*;
+
 public class App 
 {
 	 public static void main( String[] args )
@@ -16,14 +15,14 @@ public class App
         System.out.println("El valor total en bodega es: "+Act1.valor_total_bodega(Act1.fillProducts()));
         System.out.println("El ingreso total por ventas es : "+ Act1.ingreso_total_por_ventas(Act1.fillProducts(),Act1.fillItems()));
         System.out.println("El producto con mas ingresos es: "+ Act1.producto_con_mas_ingresos(Act1.fillProducts(),Act1.fillItems()));
-        
+        System.out.println("//----------------- Actividad 1------------------- // \n \n");
       
         System.out.println("//----------------- Actividad 2------------------- //");
         double[] list = {1.3, 1.3, 1.3};
         System.out.println("La desviacion estandar es: "+ Act2.desviacion_estandar(list));
-        
+        System.out.println("//----------------- Actividad 2------------------- // \n \n");
 
-        System.out.println("//----------------- Actividad 3------------------- // \n");
+        System.out.println("//----------------- Actividad 3------------------- // ");
         double x = 1.1;
         ArrayList<Integer> p  = new ArrayList<Integer>();
         ArrayList<Integer> q  = new ArrayList<Integer>();
@@ -36,7 +35,19 @@ public class App
         System.out.println("EL polynomio evaluado con "+x+ " da: "+Act3.evaluar(r,x));
         System.out.println("La suma de los polinomios es: "+Act3.sumar_polinomios(r,p));     
         System.out.println("La derivada del polinomio es: "+Act3.derivar_polinomio(r)); 
-   
+        System.out.println("//----------------- Actividad 3------------------- // \n \n");
+        
+        /*ArrayList<String> z  = new ArrayList<String>();
+        z.add("conejo");z.add("ornitorrinco");z.add("pez");z.add("hipopotamo");z.add("tigre");
+        System.out.println("//----------------- Actividad 4------------------- // ");
+        System.out.println("La lista ordenada por largo de palabra es: "+Act4.ordenar_por_largo_palabra(z));     
+        System.out.println("//----------------- Actividad 4------------------- // \n \n");*/
+        
+        System.out.println("//----------------- Actividad 5------------------- //");
+        String word = "El elefante avanza hacia Asia"; 
+        System.out.println("El diccionario con las letras es el siguiente: "+Act5.contar_letras(word));        
+        System.out.println("//----------------- Actividad 5------------------- // \n \n");
+        
     }
      
 }
