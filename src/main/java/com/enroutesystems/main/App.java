@@ -48,6 +48,13 @@ public class App
         System.out.println("El diccionario con las letras es el siguiente: "+Act5.contar_letras(word));        
         System.out.println("//----------------- Actividad 5------------------- // \n \n");
         
+        System.out.println("//----------------- Actividad 7------------------- //");
+        String a = "rocas";
+        String b = "carro";
+        System.out.println("¿Son anagrama?  ");     
+        Act6.son_anagrama(a, b);
+        System.out.println("//----------------- Actividad 7------------------- // \n \n");
+        
     }
      
 }
