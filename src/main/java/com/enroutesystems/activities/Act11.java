@@ -24,7 +24,7 @@ public class Act11 {
 		      }
 		        String vocals = "aeiouAEIOU";
 				for(int a = 0;a<vocals.length();a++){		
-				    if(!vocals.contains(String.valueOf(current))){
+				    if(vocals.contains(String.valueOf(current))){
 				      vocales += 1;		      
 				    }
 				  }
@@ -34,7 +34,7 @@ public class Act11 {
 		System.out.println("Mayusculas: " + mayusculas);
 		System.out.println("Minusculas: " + minusculas);
 		System.out.println("Especiales: " + especiales);
-		System.out.println("Vocales: " + vocales);
+		System.out.println("Vocales: " + vocales/10);
 		System.out.println("Porcentaje de minusculas: " + (100*minusculas)/(mayusculas + minusculas)+"%");
 		
 	}
