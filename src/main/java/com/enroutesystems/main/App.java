@@ -67,11 +67,17 @@ public class App
         Act9.aprobado(fileName);
         System.out.println("//----------------- Actividad 9------------------- // \n \n");*/
         
-        System.out.println("//----------------- Actividad 9------------------- //");
+        System.out.println("//----------------- Actividad 10------------------- //");
         String fileName2 = "puntajes.txt";
         System.out.println("¿Cuantos aprobaron y reprobaron?  ");     
         Act10.obtener_puntajes(fileName2);
-        System.out.println("//----------------- Actividad 9------------------- // \n \n");
+        System.out.println("//----------------- Actividad 10------------------- // \n \n");
+        
+        System.out.println("//----------------- Actividad 11------------------- //");
+        String fileName3 = "texto.txt";
+        System.out.println("¿Cuantas letras hay en mayusculas?");     
+        Act11.mayusculas(fileName3);
+        System.out.println("//----------------- Actividad 11------------------- // \n \n");
     }
      
 }
