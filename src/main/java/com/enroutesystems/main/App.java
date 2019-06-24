@@ -60,6 +60,18 @@ public class App
         System.out.println("¿Es vocal?  ");     
         Act8.es_vocal(letter);
         System.out.println("//----------------- Actividad 8------------------- // \n \n");
+        
+       /* System.out.println("//----------------- Actividad 9------------------- //");
+        String fileName = "calificaciones.txt";
+        System.out.println("¿Es vocal?  ");     
+        Act9.aprobado(fileName);
+        System.out.println("//----------------- Actividad 9------------------- // \n \n");*/
+        
+        System.out.println("//----------------- Actividad 9------------------- //");
+        String fileName2 = "puntajes.txt";
+        System.out.println("¿Cuantos aprobaron y reprobaron?  ");     
+        Act10.obtener_puntajes(fileName2);
+        System.out.println("//----------------- Actividad 9------------------- // \n \n");
     }
      
 }
