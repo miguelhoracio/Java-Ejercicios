@@ -55,6 +55,11 @@ public class App
         Act6.son_anagrama(a, b);
         System.out.println("//----------------- Actividad 7------------------- // \n \n");
         
+        System.out.println("//----------------- Actividad 8------------------- //");
+        char letter = 'E';
+        System.out.println("¿Es vocal?  ");     
+        Act8.es_vocal(letter);
+        System.out.println("//----------------- Actividad 8------------------- // \n \n");
     }
      
 }
