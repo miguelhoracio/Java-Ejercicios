@@ -1,12 +1,13 @@
 package com.enroutesystems.main;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 import com.enroutesystems.activities.*;
 
 public class App 
 {
-	 public static void main( String[] args )
+	 public static void main( String[] args ) throws IOException
     {      
 		 
 		 
@@ -37,11 +38,12 @@ public class App
         System.out.println("La derivada del polinomio es: "+Act3.derivar_polinomio(r)); 
         System.out.println("//----------------- Actividad 3------------------- // \n \n");
         
-        /*ArrayList<String> z  = new ArrayList<String>();
+        ArrayList<String> z  = new ArrayList<String>();
         z.add("conejo");z.add("ornitorrinco");z.add("pez");z.add("hipopotamo");z.add("tigre");
         System.out.println("//----------------- Actividad 4------------------- // ");
         System.out.println("La lista ordenada por largo de palabra es: "+Act4.ordenar_por_largo_palabra(z));     
-        System.out.println("//----------------- Actividad 4------------------- // \n \n");*/
+        System.out.println("//----------------- Actividad 4------------------- // \n \n");
+
         
         System.out.println("//----------------- Actividad 5------------------- //");
         String word = "El elefante avanza hacia Asia"; 
@@ -83,6 +85,13 @@ public class App
         System.out.println("¿Existe este producto?");     
         Act12.existe_producto(9801);
         System.out.println("//----------------- Actividad 12------------------- // \n \n");
+        
+        System.out.println("//----------------- Actividad 13------------------- //");
+        String s1 = "a.txt";
+        String s2 = "b.txt";
+        System.out.println("Las listas se han combinado y ordenado correctamente"); 
+        Act13.obtener_puntajes(s1, s2);
+        System.out.println("//----------------- Actividad 13------------------- // \n \n");
     }
      
 }
