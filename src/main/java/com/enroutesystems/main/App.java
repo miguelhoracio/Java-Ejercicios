@@ -78,6 +78,11 @@ public class App
         System.out.println("¿Cuantas letras hay en mayusculas?");     
         Act11.mayusculas(fileName3);
         System.out.println("//----------------- Actividad 11------------------- // \n \n");
+        
+        System.out.println("//----------------- Actividad 12------------------- //");
+        System.out.println("¿Existe este producto?");     
+        Act12.existe_producto(9801);
+        System.out.println("//----------------- Actividad 12------------------- // \n \n");
     }
      
 }
